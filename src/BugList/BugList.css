@@ -1,0 +1,68 @@
+.bug-tracker__item {
+    padding: 15px !important;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.bug-tracker__item-inner {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #3d5bf1;
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 20px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+    text-decoration: none;
+    display: block;
+}
+
+.button:hover {
+    background-color: #314dd8;
+}
+
+.list_item {
+    background-color: #fff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.list_item:last-child {
+    margin-bottom: 0px;
+}
+
+.item_block {
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 15px;
+    height: 100%;
+}
+
+.create_task {
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    transition: all .2s ease-in-out;
+}
+.create_task:hover {
+    background-color: #000;
+    color: #fff;
+}
